@@ -24,7 +24,7 @@ fi
 cd `dirname "$0"`
 
 #check if is startup with source code rather than zip package
-JAR=forecast-1.0.0.jar
+JAR=forecast-0.1.1-snapshot.jar
 if [ ! -e $JAR ]; then
     JAR=target/$JAR
     if [ -e microservice.yaml ]; then
